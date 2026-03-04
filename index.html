@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Task-04</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">DEV<span>.</span>PORTFOLIO</div>
+        <ul class="nav-links">
+            <li><a href="javascript:void(0)" onclick="showPage('home')" id="link-home" class="active-link">Home</a></li>
+            <li><a href="javascript:void(0)" onclick="showPage('about')" id="link-about">About</a></li>
+            <li><a href="javascript:void(0)" onclick="showPage('projects')" id="link-projects">Projects</a></li>
+            <li><a href="javascript:void(0)" onclick="showPage('contact')" id="link-contact" class="nav-btn">Hire Me</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section id="home" class="page-section active">
+            <div class="hero-inner">
+                <div class="profile-container">
+                    <img src="https://media.istockphoto.com/id/1290743328/vector/faceless-man-abstract-silhouette-of-person-the-figure-of-man-without-a-face-front-view.jpg?s=612x612&w=0&k=20&c=Ys-4Co9NaWFFBDjmvDJABB2BPePxJwHugC8_G5u0rOk=" alt="Profile Photo" class="hero-img">
+                </div>
+                <span class="badge">Open for Opportunities</span>
+                <h1>Engineering <span class="gradient-text">Scalable</span> Digital Solutions.</h1>
+                <p>A Frontend Developer focused on creating high-performance, accessible, and visually stunning web applications.</p>
+                <div class="hero-btns">
+                    <button class="btn primary" onclick="showPage('projects')">View Projects</button>
+                    <button class="btn secondary" onclick="showPage('about')">My Story</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page-section">
+            <div class="container">
+                <h2 class="section-title">The <span class="gradient-text">Person</span> Behind the Code</h2>
+                <div class="about-layout">
+                    <div class="about-main">
+    <h3>Professional Journey</h3>
+    <div class="timeline">
+        <div class="time-item">
+            <span class="date-badge">2024 - PRESENT</span>
+            <h4>Freelance Full-Stack Developer</h4>
+            <p class="company">Independent Solutions</p>
+            <ul class="exp-bullets">
+                <li>Developed and launched 10+ high-performance websites using <strong>React and Node.js</strong>.</li>
+                <li>Collaborated with clients to define project scopes and delivered pixel-perfect UI designs.</li>
+                <li>Boosted client site-loading speeds by 50% through advanced image optimization and lazy loading.</li>
+            </ul>
+        </div>
+
+        <div class="time-item">
+            <span class="date-badge">2023 - 2024</span>
+            <h4>Open Source Contributor</h4>
+            <p class="company">GitHub Community</p>
+            <ul class="exp-bullets">
+                <li>Authored over 50+ pull requests for various frontend libraries, focusing on <strong>Accessibility (A11y)</strong>.</li>
+                <li>Debugged complex CSS Grid/Flexbox issues across cross-browser environments (Safari, Chrome, Firefox).</li>
+            </ul>
+        </div>
+    </div>
+</div>
+                        </div>
+                    </div>
+                    <div class="about-layout">
+    <div class="about-main">
+        <h3>Professional Journey & Impact</h3>
+        <div class="timeline">
+            <div class="time-item">
+                <span class="date-badge">2024 - PRESENT</span>
+                <h4>Lead Freelance Developer</h4>
+                <p class="company">Independent Consultant</p>
+                <ul class="exp-bullets">
+                    <li><strong>Engineered</strong> custom E-commerce solutions using React and Stripe, increasing client conversion rates by 25%.</li>
+                    <li><strong>Optimized</strong> web vitals for enterprise landing pages, achieving a sub-1.5s Largest Contentful Paint (LCP).</li>
+                    <li><strong>Managed</strong> full-cycle development from UI/UX wireframing in Figma to final deployment on Vercel/AWS.</li>
+                </ul>
+            </div>
+
+            <div class="time-item">
+                <span class="date-badge">2023 - 2024</span>
+                <h4>Open Source Contributor</h4>
+                <p class="company">GitHub Ecosystem</p>
+                <ul class="exp-bullets">
+                    <li><strong>Collaborated</strong> with global teams to maintain UI libraries, focusing on cross-browser compatibility.</li>
+                    <li><strong>Implemented</strong> automated testing suites using Jest, reducing deployment bugs by 15%.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-aside">
+        <div class="side-card">
+            <h4><i class="icon">💻</i> Frontend Mastery</h4>
+            <div class="skill-tags">
+                <span>React.js</span> <span>Next.js</span> <span>TypeScript</span>
+                <span>Tailwind CSS</span> <span>SASS/SCSS</span> <span>Three.js</span>
+            </div>
+        </div>
+
+        <div class="side-card">
+            <h4><i class="icon">⚙️</i> Backend & DevOps</h4>
+            <div class="skill-tags">
+                <span>Node.js</span> <span>Express</span> <span>PostgreSQL</span>
+                <span>Firebase</span> <span>Docker</span> <span>AWS Basics</span>
+            </div>
+        </div>
+
+        <div class="side-card">
+            <h4><i class="icon">🛠️</i> Tools & Architecture</h4>
+            <div class="skill-tags">
+                <span>Git/GitHub</span> <span>Figma</span> <span>Agile/Scrum</span>
+                <span>REST APIs</span> <span>Jest/Cypress</span> <span>Postman</span>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="page-section">
+    <div class="container">
+        <h2 class="section-title">Selected <span class="gradient-text">Work</span></h2>
+        <div class="project-grid">
+            
+            <div class="p-card">
+                <div class="p-img-box">
+                    <img src="data:image/jpeg;base64,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" alt="SaaS Dashboard">
+                </div>
+                <div class="p-content">
+                    <h4>CloudMetrics Dashboard</h4>
+                    <p>A real-time analytics platform for tracking server performance and user latency.</p>
+                    <div class="p-tags"><span>React</span> <span>Node.js</span> <span>Chart.js</span></div>
+                </div>
+            </div>
+            <div class="p-card">
+                <div class="p-img-box">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800" alt="E-commerce">
+                </div>
+                <div class="p-content">
+                    <h4>Aura Fashion Store</h4>
+                    <p>A fully responsive e-commerce storefront with a custom cart and Stripe integration.</p>
+                    <div class="p-tags"><span>Next.js</span> <span>Tailwind</span> <span>Stripe</span></div>
+                </div>
+            </div>
+
+            <div class="p-card">
+                <div class="p-img-box">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800" alt="AI Project">
+                </div>
+                <div class="p-content">
+                    <h4>PromptGen AI</h4>
+                    <p>A library for organizing and optimizing AI prompts for LLMs like GPT-4.</p>
+                    <div class="p-tags"><span>Python</span> <span>React</span> <span>OpenAI API</span></div>
+                </div>
+            </div>
+
+            <div class="p-card">
+                <div class="p-img-box">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800" alt="Mobile App UI">
+                </div>
+                <div class="p-content">
+                    <h4>ZenFit Tracker</h4>
+                    <p>A mobile-first web app for tracking daily meditation and workout routines.</p>
+                    <div class="p-tags"><span>Vue.js</span> <span>Firebase</span> <span>PWA</span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+       
+<section id="contact" class="page-section">
+            <div class="form-wrapper">
+                <div id="contact-content">
+                    <h2>Let's Talk</h2>
+                    <form onsubmit="handleFormSubmit(event)">
+                        <div class="form-row">
+                            <input type="text" id="userName" placeholder="Name" required>
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <textarea placeholder="Your Message..." rows="5" required></textarea>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+                <div id="confirmation-msg" class="hidden">
+                    <div class="success-icon">✓</div>
+                    <h2>Message Sent!</h2>
+                    <p>Thanks, <span id="display-name" class="gradient-text"></span>! I'll reply within 24 hours.</p>
+                    <button class="btn secondary" onclick="resetForm()">Send Another</button>
+                </div>
+            </div>
+        </section>
+    </main>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>
